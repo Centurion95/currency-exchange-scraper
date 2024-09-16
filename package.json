@@ -1,0 +1,26 @@
+{
+  "name": "currency-exchange-scraper",
+  "version": "1.0.0",
+  "description": "This project is a currency exchange rates scraper built with Node.js, TypeScript, Express.js, and Selenium. The scraper fetches exchange rates from a website and exposes a REST API to trigger the scraping and return the rates in JSON format.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "ts-node-dev --respawn src/server.ts"
+  },
+  "keywords": [],
+  "author": "Rodrigo Centurión",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^128.0.3",
+    "express": "^4.21.0",
+    "selenium-webdriver": "^4.24.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "@types/selenium-webdriver": "^4.1.26"
+  }
+}
